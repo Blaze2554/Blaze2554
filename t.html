@@ -46,11 +46,13 @@
 </div>
 <br><br>
 
-<div>
+</div>
   <script>
     function checkAnswer(btn,correct)
+      {btn.parentElement.querySelectorAll('button').forEach(b => b.disabled = true);
+      btn.classList.add(correct? 'correct' : 'incorrect');}
   </script>
-</div>
-    
+
+    </body>  
 </html>
 
