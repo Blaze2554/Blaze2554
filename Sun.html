@@ -74,7 +74,6 @@
   </section>
   
   <script>
-  function checkAnswer(btn,correct)
     function checkAnswer(btn,correct)
       {btn.parentElement.querySelectorAll('button').forEach(b => b.disabled = true);
       btn.classList.add(correct? 'correct' : 'incorrect');}
