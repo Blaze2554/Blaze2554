@@ -64,6 +64,15 @@
     </center>
    </section>
 
+  <section>
+    <h1><mark>แบบทดสอบความรู้</mark></h1>
+    <p>1. วันสันติภาพไทยตรงกับวันที่เท่าไหร่ของทุกปี?</p>
+    <button onclick="checkAnswer(this,true)"> 16 สิงหาคม</button>
+    <button onclick="checkAnswer(this,false)"> 12 สิงหาคม</button>
+    <button onclick="checkAnswer(this,false)"> 5 ธันวาคม</button>
+    <button onclick="checkAnswer(this,false)"> 24 มิถุนายน</button>
+  </section>
+  
   <script>
   function checkAnswer(btn,correct)
     {btn.classList.add(correct?'correct':'incorrect');
